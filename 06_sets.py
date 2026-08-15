@@ -31,7 +31,7 @@ print(f"type(my_other_set) created with {{}}: {type(my_other_set)}")  # Imprimir
 my_other_set = {"Saul", "Zurita", "Azul"}  # Crear un set con diferentes tipos de datos
 print(f"After add data type(my_other_set): {type(my_other_set)}")  # Imprimir el tipo de my_other_set, que es un set
 print(f"my_other_set: {my_other_set}")  # Imprimir el set con diferentes tipos de datos
-print(f"Saul in {{my_other_set}}: { 'Saul' in my_other_set}")  # Verificar si "Saul"
+print(f"Saul in {{my_other_set}}: { 'Saul' in my_other_set}")  # Verificar si "Saul" está en el set
 
 print(f"my_other_set: {my_other_set}")  # Imprimir el set original
 my_other_set.clear()  # Limpiar el set, eliminando todos sus elementos  
