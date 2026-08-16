@@ -21,7 +21,7 @@ for i in range(10):
         break  # Romper el bucle
     print(f"For break in 5: {i}")  # Imprimir el valor de i en cada iteración
 else:
-    print("Fin del for 2 break 1")
+    print(f"Fin del for 2 break 1\n")
 
 my_list = [1, 2, 3, 4, 5]  # Lista de números
 my_tuple = (1, 2, 3, 4, 5)  # Tupla de números
@@ -31,18 +31,21 @@ my_dict = {"Nombre": "Saul", "Apellido": "Zurita", "Edad": 36}  # Diccionario de
 # Iterar sobre una lista
 for i in my_list:  # Iterar sobre cada elemento de la lista
     print(f"For in list: {i}")  # Imprimir el valor de i en cada iteración
-print(f"fin de for 3")
+print(f"fin de for 3\n")
 # Iterar sobre una tupla
 for i in my_tuple:  # Iterar sobre cada elemento de la tupla
     print(f"For in tuple: {i}")  # Imprimir el valor de i en cada iteración
+print(f"fin de for 4\n")
 
 # Iterar sobre un conjunto
 for i in my_set:  # Iterar sobre cada elemento del conjunto 
     print(f"For in set: {i}")  # Imprimir el valor de i en cada iteración
+print(f"fin de for 5\n")
 
 # Iterar sobre un diccionario
 for key, value in my_dict.items():  # Iterar sobre cada clave y valor del
     print(f"For in dict: {key}, {value}")  # Imprimir la clave y el valor en cada iteración
+print(f"fin de for 6\n")
 
 # Iterar sobre las claves de un diccionario
 for key in my_dict:  # Iterar sobre cada clave del diccionario  
@@ -50,7 +53,7 @@ for key in my_dict:  # Iterar sobre cada clave del diccionario
     if key == "Edad":
         print(f"For in dict keys: {my_dict[key]}")  # Imprimir el valor asociado a la clave "Edad"
 else:
-    print(f"Fin del for in dict keys")
+    print(f"Fin del for 7 in dict keys\n")
 
 # Iterar sobre los valores de un diccionario
 for value in my_dict.values():  # Iterar sobre cada valor del diccionario
@@ -59,7 +62,7 @@ for value in my_dict.values():  # Iterar sobre cada valor del diccionario
         print(f"For in dict values: {value}")  # Imprimir el valor si es igual a 36 
         break
 else:
-    print(f"Fin del for in dict values")
+    print(f"Fin del for 8 in dict values\n")
 
 
 # Iterar sobre los valores de un diccionario
@@ -70,4 +73,4 @@ for value in my_dict.values():  # Iterar sobre cada valor del diccionario
         continue  # Continuar con la siguiente iteración si el valor es 36
     print(f"Continuando con el siguiente valor: {value}")  # Imprimir si se continúa
 else:
-    print(f"Fin del for in dict values")
+    print(f"Fin del for 9 in dict values\n")

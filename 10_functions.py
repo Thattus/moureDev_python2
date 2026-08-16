@@ -37,7 +37,7 @@ def print_name(name: str, surname: str = "Zurita"):
 # Calling the function with a name and surname
 print_name("Saul", "Zurita")  # Calling the function with both arguments
 # Calling the function with only a name, using the default surname
-print_name("Saul")  # Calling the function with only the name argument
+print_name("Josue")  # Calling the function with only the name argument
 
 def print_texts(*texts):
     print(f"\nTexts: {texts}")  # Printing the text
