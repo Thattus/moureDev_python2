@@ -39,12 +39,14 @@ print_name("Saul", "Zurita")  # Calling the function with both arguments
 # Calling the function with only a name, using the default surname
 print_name("Josue")  # Calling the function with only the name argument
 
+print_name(surname="ZU", name="Sa")
+
 def print_texts(*texts):
     print(f"\nTexts: {texts}")  # Printing the text
     print(f"Type of texts: {type(texts)}")  # Printing the type of texts, which will be a tuple
     print(f"Number of texts: {len(texts)}")  # Printing the number of texts
     for text in texts:  # Iterating over each text in the texts tuple
-        print(f"Text: {text}")  # Printing each text
+        print(f"Text: {text.upper()}")  # Printing each text in uppercase
 
 
 print_texts("Hola", "Mundo", "Python")  # Calling the function with multiple arguments
